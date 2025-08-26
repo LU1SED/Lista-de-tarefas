@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List - Luis Eduardo</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>✅ To-Do List</h1>
+    <p class="subtitle">Organize suas tarefas</p>
+    
+    <div class="input-area">
+      <input type="text" id="taskInput" placeholder="Digite uma tarefa...">
+      <button id="addTaskBtn">＋</button>
+    </div>
+
+    <div class="filter-area">
+      <select id="filterTasks">
+        <option value="all">Todas</option>
+        <option value="done">Concluídas</option>
+        <option value="pending">Pendentes</option>
+      </select>
+      <button id="toggleTheme">🌙</button>
+    </div>
+
+    <ul id="taskList"></ul>
+  </div>
+  <footer>Feito com ❤️ por <strong>Luis Eduardo</strong></footer>
+  <script src="script.js"></script>
+</body>
+</html>
